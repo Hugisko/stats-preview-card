@@ -48,11 +48,15 @@ body {
     place-items: center;
 }
 
+main {
+    margin-top: auto;
+    display: grid;
+    place-items: center;
+}
+
 .card {
     background-color: var(--card-cl);
-    margin-top: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 2rem;
     max-width: 600px;
     display: grid;
     border-radius: 10px;
